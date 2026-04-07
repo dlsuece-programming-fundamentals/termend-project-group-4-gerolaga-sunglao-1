@@ -14,7 +14,6 @@ export const products = [
   { name: 'Safeguard Soap', stock: '28 bar', price: 35, unit: 'bar' },
 ];
 
-// Example handling logic (add more as needed)
 export function getProductByName(name: string) {
   return products.find((p) => p.name === name);
 }
