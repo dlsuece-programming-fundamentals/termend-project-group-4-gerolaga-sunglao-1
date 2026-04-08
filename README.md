@@ -1,5 +1,17 @@
+
+## Pre-Submission Todo Checklist
+
+- [ ] Add a delete button for each product item (admin view)
+- [ ] Implement a customer view (no edit/delete options, view-only)
+- [ ] Add admin login to restrict editing/deleting to admins
+- [x] Ensure product add/edit functionality works
+- [x] Product data persists using local storage
+- [x] Responsive and clean UI for both desktop and mobile
+- [ ] Final code review and remove unused code/comments
+- [ ] Update README with latest screenshots and video walkthrough
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23397080)
-# LBYCPG3 Term End Project — A Sari-Sari Store Web-Based Application for Low-End Devices
+# 3D Store — A Web-Based Inventory App for Low-End Devices
 
 **Group Members: Derrick Matthew C. Sunglao, Venz Nathan C. Gerolaga** 
 
@@ -21,7 +33,7 @@ The developed system is a single-page web application that displays a catalog of
 
 ## Objectives
 
-- To create a lightweight, responsive web application for Sari-Sari store inventory and price display
+- To create a lightweight, responsive web application for 3D store inventory and price display
 - To ensure compatibility and fast loading on low-end devices
 - To provide a user-friendly interface for both store owners and customers
 - To support digital record-keeping and inventory management for small businesses
@@ -55,7 +67,7 @@ The application successfully displays a grid of products with their stock and pr
 The project met its objectives of being lightweight, responsive, and user-friendly. The use of React and Vite enabled rapid development and easy maintenance. The app can be extended with features like search, filtering, or admin controls for stock management.
 
 ### Conclusion
-This project demonstrates how modern web tools can empower small businesses with digital solutions. The Sari-Sari Store app is ready for further enhancements, such as user authentication, sales tracking, or integration with payment systems.
+This project demonstrates how modern web tools can empower small businesses with digital solutions. The Sari-Sari Store app can be added with new features, such as user authentication, sales tracking, or integration with payment systems, we can also migrate local storage to a working database.
 
 
 ## References
@@ -63,7 +75,7 @@ This project demonstrates how modern web tools can empower small businesses with
 - Vite Documentation: https://vitejs.dev/
 - React Documentation: https://react.dev/
 - Inspiration from local Sari-Sari stores and community feedback
-
+- Interviewees from a Sari-Sari store named: "3D Store".
 
 ## Project Deliverables
 
