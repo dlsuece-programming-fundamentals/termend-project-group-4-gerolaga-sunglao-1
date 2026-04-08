@@ -74,6 +74,13 @@ function App() {
     else setEditProduct((p) => ({ ...p, [name]: name === 'stock' || name === 'price' ? Number(value) : value }));
   };
 
+  // Delete a product
+  const handleDeleteProduct = (idx: number) => {
+    const updated = productList.filter((_, i) => i !== idx);
+    setProductList(updated);
+    if (editIndex === idx) setEditIndex(null);
+  };
+
   // Save to localStorage whenever productList changes
   useEffect(() => {
     localStorage.setItem('products', JSON.stringify(productList));
@@ -130,7 +137,10 @@ function App() {
                       Price:
                       <span className="price-value">₱{product.price.toFixed(2)}</span>
                     </div>
-                    <button type="button" onClick={() => handleEditClick(idx)}>Edit</button>
+                    <div style={{display: 'flex', gap: 8}}>
+                      <button type="button" onClick={() => handleEditClick(idx)} style={{minWidth:70}}>Edit</button>
+                      <button type="button" onClick={() => handleDeleteProduct(idx)} style={{minWidth:70, background:'#c00', color:'#fff'}}>Delete</button>
+                    </div>
                   </div>
                 </>
               )}
