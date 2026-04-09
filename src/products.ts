@@ -24,3 +24,4 @@ export function getTotalStock() {
     return sum + (isNaN(qty) ? 0 : qty);
   }, 0);
 }
+
