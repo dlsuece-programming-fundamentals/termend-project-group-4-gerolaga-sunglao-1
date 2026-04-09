@@ -2,8 +2,8 @@
 ## Pre-Submission Todo Checklist
 
 - [x] Add a delete button for each product item (admin view)
-- [ ] Implement a customer view (no edit/delete options, view-only)
-- [ ] Add admin login to restrict editing/deleting to admins
+- [x] Implement a customer view (no edit/delete options, view-only)
+- [x] Add admin login to restrict editing/deleting to admins
 - [x] Ensure product add/edit functionality works
 - [x] Product data persists using local storage
 - [x] Responsive and clean UI for both desktop and mobile
